@@ -210,6 +210,15 @@ button.more {
     margin: 15px;
 }
 
+.logo{
+        transition: all 1s ease-in-out;
+}
+
+.logo:hover{
+    transition: all 1s ease-in-out;
+    background-color:yellow;
+}
+
 .top {
     border-top: 2px ridge black;
 }
@@ -358,7 +367,7 @@ button.more {
 }
     .tablet-view {
         display: flex;
-        margin: 0 auto 100px;
+        margin: 0 auto 50px;
     }
 
     .logo {
