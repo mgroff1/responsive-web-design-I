@@ -171,16 +171,18 @@ p {
     padding: 10px;
     background: rgba(255, 255, 255, .4);
     box-shadow: 1px 1px 5px 1px blue;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
 a {
     text-decoration: none;
     transition: all 1s ease-in-out;
 }
-.nav-a{
-transition: all 1s ease-in-out;
+
+.nav-a {
+    transition: all 1s ease-in-out;
 }
+
 .nav-a:hover {
     transition: all 1s ease-in-out;
     color: red;
@@ -225,7 +227,7 @@ body {
 
 .bottom {
     border-bottom: 2px ridge black;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
 .head {
@@ -246,15 +248,16 @@ body {
     justify-self: center;
     justify-content: space-between;
     flex-direction: column;
-    background:lightgray;
+    background: linear-gradient(37deg, rgba(185, 185, 185, .5), rgba(0, 0, 0, .5), rgba(255, 255, 255, .3));
 
 }
-.img-h{
-    margin-right:50px;
+
+.img-h {
+    margin-right: 50px;
 }
 
-.middle-img{
-    margin-left:5%;
+.middle-img {
+    margin-left: 5%;
 }
 
 .text {
@@ -346,8 +349,8 @@ body {
 }
 
 
-.tablet-view{
-    display:none;
+.tablet-view {
+    display: none;
 }
 
 @media(max-width: 800px) {
@@ -356,13 +359,15 @@ body {
         padding:auto;
         margin:auto;
     } */
-    .tablet-view{
-        display:flex;
-        margin:0 auto 100px;
+    .tablet-view {
+        display: flex;
+        margin: 0 auto 100px;
     }
-    .logo{
-        display:none;
+
+    .logo {
+        display: none;
     }
+
     .img-h {
         display: none
     }
@@ -370,13 +375,16 @@ body {
 }
 
 @media(max-width: 600px) {
-    .logo{
-        display:block;
-        margin:auto;
+ 
+    .logo {
+        display: block;
+        margin: auto;
     }
-    .tablet-view{
-        display:none;
+
+    .tablet-view {
+        display: none;
     }
+
     * {
         overflow-x: none;
         text-align: center;
@@ -385,7 +393,9 @@ body {
     p {
         width: 95%;
     }
-
+.left,.right{
+    width:100%;
+}
     .sec {
         width: 550;
         /* background: gray; */
@@ -396,7 +406,8 @@ body {
     .main-container {
         display: flex;
         width: 100%;
-        background:lightgray;
+        background:linear-gradient(77deg, rgba(185,185,185,.5), rgba(0,0,0,.5), rgba(255,255,255,.3));
+
     }
 
     .rows {
@@ -409,12 +420,12 @@ body {
     }
 
     .head {
-        margin:auto;
+        margin: auto;
         padding: 0;
         width: 95%;
     }
 
- 
+
 
     .service-nav {
         width: 95%;
@@ -426,13 +437,10 @@ body {
     .service-nav a {
         font-size: 3vh;
         text-align: center;
-        border:1px ridge gray;
+        border: 1px ridge gray;
     }
 
-    .service-nav a img {
- 
-       
-    }
+    .service-nav a img {}
 
     .services {
         margin-top: 25px;
@@ -444,4 +452,3 @@ body {
 
 
 }
-
