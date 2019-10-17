@@ -395,11 +395,14 @@ button.more {
 }
     .sec {
         width: 550;
-        /* background: gray; */
-        display: block;
+        justify-content:flex-start;
         flex-direction: column;
     }
 
+    h4{
+  
+        text-align: left;
+    }
     .main-container {
         display: flex;
         width: 100%;
