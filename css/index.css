@@ -249,7 +249,7 @@ button.more {
 }
 
 .middle-img {
-    margin-left: 5%;
+   width:100%;
 }
 
 .text {
@@ -377,7 +377,7 @@ button.more {
         display: block;
         margin: auto;
     }
-
+ 
     .tablet-view {
         display: none;
     }
